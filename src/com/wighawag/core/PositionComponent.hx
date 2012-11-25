@@ -12,4 +12,8 @@ class PositionComponent implements EntityComponent{
         this.x = x;
         this.y = y;
     }
+
+    public function initialise():Void{
+
+    }
 }

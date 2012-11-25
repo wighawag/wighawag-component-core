@@ -16,4 +16,8 @@ class AssetComponent implements EntityTypeComponent {
         this.fillHorizontally = fillHorizontally;
         this.fillVertically = fillVertically;
     }
+
+    public function initialise():Void{
+
+    }
 }

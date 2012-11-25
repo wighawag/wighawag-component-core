@@ -11,6 +11,10 @@ class StateComponent implements EntityComponent {
         setState(startState);
     }
 
+    public function initialise():Void{
+
+    }
+
     public function setState(newState : String, ?resetIfSame : Bool = true) : Void{
         if (state != newState || resetIfSame){
             state = newState;

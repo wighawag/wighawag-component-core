@@ -10,6 +10,10 @@ class AISystem implements SystemComponent, implements Updatable{
     public function new() {
     }
 
+    public function initialise():Void{
+
+    }
+
     public function onEntityRegistered(entity : Entity) : Void{
 
     }

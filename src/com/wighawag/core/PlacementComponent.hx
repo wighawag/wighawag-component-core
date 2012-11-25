@@ -17,4 +17,8 @@ class PlacementComponent implements EntityComponent{
         this.width = width;
         this.height = height;
     }
+
+    public function initialise():Void{
+
+    }
 }

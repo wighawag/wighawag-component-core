@@ -35,6 +35,6 @@
 
         	<repository id="com.wighawag.report.Report" version="0.1.0" />
 		<repository id="com.wighawag.system" version="0.1.0" />
-        	<repository id="com.wighawag.asset" version="0.1.0" />
+        	<repository id="com.wighawag.asset" version="0.1.1-SNAPSHOT" />
 	</dependencies>
 </project>

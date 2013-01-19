@@ -21,7 +21,7 @@ class ExampleTest
 	
 	public function new() 
 	{
-		new AssetComponent("");
+		new AssetComponent(Xml.parse('<AssetComponent id="jumpjones" scale="true" />'));
         new PlacementComponent(0,0,1,1);
         new PositionComponent(0,0);
         new StateComponent("");

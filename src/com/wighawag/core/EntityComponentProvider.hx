@@ -19,7 +19,7 @@ class EntityComponentProvider implements EntityTypeComponent {
         var x = new Fast( xml );
 
         for (entityComponentDef in x.elements){
-            var clazz : Dynamic= Type.resolveClass(entityComponentDef.name);
+            var clazz : Class<EntityComponent> = cast(Type.resolveClass(entityComponentDef.name));
 
             //TODO support other arguments types than String (maybe through xsd ?)
             var args : Array<String> = new Array();

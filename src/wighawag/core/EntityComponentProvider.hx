@@ -1,8 +1,16 @@
-package com.wighawag.core;
+/****
+* Wighawag License:
+* - free to use for commercial and non commercial application
+* - provided the modification done to it are given back to the community
+* - use at your own risk
+* 
+****/
+
+package wighawag.core;
 
 import haxe.xml.Fast;
-import com.wighawag.system.EntityTypeComponent;
-import com.wighawag.system.EntityComponent;
+import wighawag.system.EntityTypeComponent;
+import wighawag.system.EntityComponent;
 
 typedef EntityComponentInstance = {
     clazz : Class<EntityComponent>,

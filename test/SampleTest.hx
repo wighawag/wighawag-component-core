@@ -1,11 +1,11 @@
 package;
 
-import com.wighawag.game.logic.AISystem;
-import com.wighawag.game.logic.AIComponent;
-import com.wighawag.core.StateComponent;
-import com.wighawag.core.PositionComponent;
-import com.wighawag.core.PlacementComponent;
-import com.wighawag.core.AssetComponent;
+import wighawag.game.logic.AISystem;
+import wighawag.game.logic.AIComponent;
+import wighawag.core.StateComponent;
+import wighawag.core.PositionComponent;
+import wighawag.core.PlacementComponent;
+import wighawag.core.AssetComponent;
 import massive.munit.util.Timer;
 import massive.munit.Assert;
 import massive.munit.async.AsyncFactory;
@@ -15,7 +15,7 @@ import massive.munit.async.AsyncFactory;
 * This is an example test class can be used as a template for writing normal and async tests 
 * Refer to munit command line tool for more information (haxelib run munit)
 */
-class ExampleTest 
+class SampleTest 
 {
 	private var timer:Timer;
 	

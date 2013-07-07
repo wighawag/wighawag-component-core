@@ -1,12 +1,20 @@
-package com.wighawag.core;
+/****
+* Wighawag License:
+* - free to use for commercial and non commercial application
+* - provided the modification done to it are given back to the community
+* - use at your own risk
+* 
+****/
+
+package wighawag.core;
 
 // TODO where this component should belong ?
 
 import haxe.xml.Fast;
-import com.wighawag.system.EntityTypeComponent;
-import com.wighawag.system.EntityComponent;
-import com.wighawag.asset.load.AssetManager;
-import com.wighawag.utils.StringUtils;
+import wighawag.system.EntityTypeComponent;
+import wighawag.system.EntityComponent;
+import wighawag.asset.load.AssetManager;
+import wighawag.utils.StringUtils;
 
 class AssetComponent implements EntityTypeComponent {
 

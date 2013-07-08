@@ -1,13 +1,13 @@
 {
   "name": "wighawag-components-core",
   "url" : "https://github.wighawag/wighawag-components-core/",
-  "license": "Wighawag",
+  "license": "GPL",
   "tags": ["cross"],
-  "description": "",
+  "description": "a set of basic components for wighawag-system",
   "version": "0.0.1",
   "releasenote": "",
   "contributors": ["wighawag"],
   "classPath" : "src",
-  "dependencies": {"wighawag-report":"","msignal":"", "wighawag-utils":"0.0.1", "wighawag-system":"0.0.1","wighawag-asset":"0.0.1","promhx":""},
+  "dependencies": {"wighawag-report":"0.0.1","msignal":"1.2.1", "wighawag-utils":"0.0.1", "wighawag-system":"0.0.1","wighawag-asset":"0.0.1","promhx":"0.2.2"},
   "targets" : ["as3"]
 }
